@@ -78,10 +78,12 @@ float delay = INITIAL_DELAY;
   //  changeCount++;
   //  NSLog(@"%d",changeCount);
   NSLog(@"%f",delay);
+  self.But.enabled = NO;
   if (delay >= 0.4) {
     [timer invalidate];
     delay = INITIAL_DELAY;
     if ([imgArray count] > 0) [imgArray removeObjectAtIndex:lastIndex];
+    self.But.enabled = YES;
   }
   else {
     [timer invalidate];

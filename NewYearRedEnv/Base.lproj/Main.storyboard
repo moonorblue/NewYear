@@ -32,27 +32,22 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame.png" id="ivl-2g-rDq">
-                                <rect key="frame" x="30" y="44" width="705" height="705"/>
+                                <rect key="frame" x="29" y="39" width="711" height="715"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="紅" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gmL-mh-qyR">
-                                <rect key="frame" x="107" y="820" width="130" height="132"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hung.png" id="qlP-1A-BIC">
+                                <rect key="frame" x="61" y="785" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="120"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="包" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="arl-ts-UME">
-                                <rect key="frame" x="533" y="820" width="130" height="132"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bao.png" id="JHf-Wi-pqs">
+                                <rect key="frame" x="505" y="785" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="120"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="But" destination="j3U-4J-Dxn" id="Shm-mb-JMw"/>
                         <outlet property="headView" destination="Uqd-h5-ofB" id="43K-Aq-3QY"/>
                     </connections>
                 </viewController>
@@ -62,7 +57,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bao.png" width="200" height="200"/>
         <image name="frame.png" width="705" height="705"/>
+        <image name="hung.png" width="200" height="200"/>
         <image name="luck.png" width="700" height="700"/>
         <image name="sheepBut.png" width="291" height="290"/>
     </resources>

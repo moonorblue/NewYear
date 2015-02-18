@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *headView;
 - (IBAction)ButtonClick:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *But;
 
 
 @end
