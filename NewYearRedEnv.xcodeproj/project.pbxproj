@@ -14,6 +14,16 @@
 		FCA7CCE11A93A90E00DF96A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA7CCE01A93A90E00DF96A1 /* Images.xcassets */; };
 		FCA7CCE41A93A90E00DF96A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA7CCE21A93A90E00DF96A1 /* LaunchScreen.xib */; };
 		FCA7CCF01A93A90E00DF96A1 /* NewYearRedEnvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA7CCEF1A93A90E00DF96A1 /* NewYearRedEnvTests.m */; };
+		FCE95DDE1A94479200CAAA78 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD41A94479200CAAA78 /* 1.png */; };
+		FCE95DDF1A94479200CAAA78 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD51A94479200CAAA78 /* 2.png */; };
+		FCE95DE01A94479200CAAA78 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD61A94479200CAAA78 /* 3.png */; };
+		FCE95DE11A94479200CAAA78 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD71A94479200CAAA78 /* 4.png */; };
+		FCE95DE21A94479200CAAA78 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD81A94479200CAAA78 /* 5.png */; };
+		FCE95DE31A94479200CAAA78 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DD91A94479200CAAA78 /* 6.png */; };
+		FCE95DE41A94479200CAAA78 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DDA1A94479200CAAA78 /* 7.png */; };
+		FCE95DE51A94479200CAAA78 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DDB1A94479200CAAA78 /* 8.png */; };
+		FCE95DE61A94479200CAAA78 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DDC1A94479200CAAA78 /* 9.png */; };
+		FCE95DE71A94479200CAAA78 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE95DDD1A94479200CAAA78 /* 10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,16 @@
 		FCA7CCE91A93A90E00DF96A1 /* NewYearRedEnvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewYearRedEnvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA7CCEE1A93A90E00DF96A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA7CCEF1A93A90E00DF96A1 /* NewYearRedEnvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewYearRedEnvTests.m; sourceTree = "<group>"; };
+		FCE95DD41A94479200CAAA78 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FCE95DD51A94479200CAAA78 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FCE95DD61A94479200CAAA78 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		FCE95DD71A94479200CAAA78 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		FCE95DD81A94479200CAAA78 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		FCE95DD91A94479200CAAA78 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		FCE95DDA1A94479200CAAA78 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		FCE95DDB1A94479200CAAA78 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		FCE95DDC1A94479200CAAA78 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		FCE95DDD1A94479200CAAA78 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +107,7 @@
 				FCA7CCDB1A93A90E00DF96A1 /* ViewController.m */,
 				FCA7CCDD1A93A90E00DF96A1 /* Main.storyboard */,
 				FCA7CCE01A93A90E00DF96A1 /* Images.xcassets */,
+				FCE95DD31A94478A00CAAA78 /* img */,
 				FCA7CCE21A93A90E00DF96A1 /* LaunchScreen.xib */,
 				FCA7CCD31A93A90E00DF96A1 /* Supporting Files */,
 			);
@@ -117,6 +138,23 @@
 				FCA7CCEE1A93A90E00DF96A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCE95DD31A94478A00CAAA78 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FCE95DD41A94479200CAAA78 /* 1.png */,
+				FCE95DD51A94479200CAAA78 /* 2.png */,
+				FCE95DD61A94479200CAAA78 /* 3.png */,
+				FCE95DD71A94479200CAAA78 /* 4.png */,
+				FCE95DD81A94479200CAAA78 /* 5.png */,
+				FCE95DD91A94479200CAAA78 /* 6.png */,
+				FCE95DDA1A94479200CAAA78 /* 7.png */,
+				FCE95DDB1A94479200CAAA78 /* 8.png */,
+				FCE95DDC1A94479200CAAA78 /* 9.png */,
+				FCE95DDD1A94479200CAAA78 /* 10.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +237,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE95DE71A94479200CAAA78 /* 10.png in Resources */,
+				FCE95DE51A94479200CAAA78 /* 8.png in Resources */,
 				FCA7CCDF1A93A90E00DF96A1 /* Main.storyboard in Resources */,
+				FCE95DE11A94479200CAAA78 /* 4.png in Resources */,
+				FCE95DDE1A94479200CAAA78 /* 1.png in Resources */,
+				FCE95DE31A94479200CAAA78 /* 6.png in Resources */,
+				FCE95DDF1A94479200CAAA78 /* 2.png in Resources */,
+				FCE95DE01A94479200CAAA78 /* 3.png in Resources */,
+				FCE95DE21A94479200CAAA78 /* 5.png in Resources */,
+				FCE95DE41A94479200CAAA78 /* 7.png in Resources */,
+				FCE95DE61A94479200CAAA78 /* 9.png in Resources */,
 				FCA7CCE41A93A90E00DF96A1 /* LaunchScreen.xib in Resources */,
 				FCA7CCE11A93A90E00DF96A1 /* Images.xcassets in Resources */,
 			);
@@ -414,6 +462,7 @@
 				FCA7CCF51A93A90E00DF96A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCA7CCF61A93A90E00DF96A1 /* Build configuration list for PBXNativeTarget "NewYearRedEnvTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +471,7 @@
 				FCA7CCF81A93A90E00DF96A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
