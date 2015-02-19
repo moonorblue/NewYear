@@ -79,6 +79,7 @@ float delay = INITIAL_DELAY;
   //  NSLog(@"%d",changeCount);
   NSLog(@"%f",delay);
   self.But.enabled = NO;
+  [self rotate:360*(delay/0.4)] ;
   if (delay >= 0.4) {
     [timer invalidate];
     delay = INITIAL_DELAY;
@@ -89,5 +90,9 @@ float delay = INITIAL_DELAY;
     [timer invalidate];
     [self runtimer];
   }
+}
+
+- (void)rotate:(float)angle{
+ self.But.transform = CGAffineTransformMakeRotation( ( angle * M_PI ) / 180 );
 }
 @end
